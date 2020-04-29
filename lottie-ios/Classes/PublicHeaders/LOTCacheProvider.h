@@ -33,7 +33,7 @@
 
 @required
 - (LOTImage *)imageForKey:(NSString *)key;
-- (void)setImage:(LOTImage *)image forKey:(NSString *)key;
+- (void)lot_setImage:(LOTImage *)image forKey:(NSString *)key;
 
 @end
 

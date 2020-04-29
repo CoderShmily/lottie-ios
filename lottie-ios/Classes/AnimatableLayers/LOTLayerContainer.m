@@ -159,7 +159,7 @@
         image = [imageCache imageForKey:imagePath];
         if (!image) {
           image = [UIImage imageWithContentsOfFile:imagePath];
-          [imageCache setImage:image forKey:imagePath];
+          [imageCache lot_setImage:image forKey:imagePath];
         }
       } else {
         image = [UIImage imageWithContentsOfFile:imagePath];
